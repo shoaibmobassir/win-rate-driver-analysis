@@ -1,0 +1,72 @@
+# Win Rate Driver Analysis - Decision Engine Output
+
+This system tells leadership what changed, where revenue is leaking, 
+and what to focus on this quarter—not just what the win rate is.
+
+## Top Negative Drivers (Hurting Win Rate)
+
+| Driver | Impact | Revenue at Risk | What Changed |
+|--------|--------|-----------------|--------------|
+| cycle_bucket | ↓ moderately decreases win probability | $1.5M | Win rate 0.0% (stable) |
+
+**Likely Issues:**
+- Qualification issues
+- Chasing bad deals too long
+- Pricing friction
+- Process inefficiencies
+
+**Suggested Actions:**
+- Improve early-stage disqualification
+- Tighten MEDDICC / ICP enforcement
+- Pricing transparency
+- Streamline approval processes
+
+| deal_stage | ↓ slightly decreases win probability | $0.4M | Win rate 0.0% (stable) |
+
+**Likely Issues:**
+- Process inefficiencies
+- Resource constraints
+- Competitive pressure
+
+**Suggested Actions:**
+- Review sales process
+- Enablement and training
+- Competitive analysis
+
+| product_type | ↓ slightly decreases win probability | $0.0M | Win rate 0.0% (stable) |
+
+**Likely Issues:**
+- Product-market fit
+- Feature gaps
+- Integration complexity
+- Support requirements
+
+**Suggested Actions:**
+- Product roadmap alignment
+- Integration support
+- Technical enablement
+- Customer success involvement
+
+## Top Positive Drivers (Improving Win Rate)
+
+| Driver | Impact | Revenue Upside |
+|--------|--------|----------------|
+| sales_cycle_days | ↑ moderately increases win probability | $1.4M |
+| deal_amount | ↑ slightly increases win probability | $0.4M |
+| acv_bucket | ↑ slightly increases win probability | $0.3M |
+| lead_source | ↑ slightly increases win probability | $0.4M |
+| region | ↑ slightly increases win probability | $0.2M |
+
+## Drivers That Changed Over Time
+
+| Driver | Direction | Baseline | Recent | Change |
+|--------|-----------|----------|--------|--------|
+| cycle_bucket | worsened | -0.063 | -0.277 | -0.214 |
+
+## How to Use This Analysis
+
+1. **Prioritize Pipeline**: Focus sales efforts on deals with positive drivers
+2. **Adjust Sales Focus**: Redirect resources away from segments with negative drivers
+3. **Align Marketing + Sales**: Improve lead quality for sources with negative drivers
+4. **Enablement**: Provide targeted coaching on deals with negative driver patterns
+5. **Strategic Planning**: Investigate why certain drivers changed over time
